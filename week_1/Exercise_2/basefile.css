@@ -1,0 +1,140 @@
+body {
+    font-family: 'Lato';
+    font-size: 22px;
+    margin:0px;
+}
+
+.right-side-section {
+    display: flex;
+    flex-direction: column;
+    flex:1000;
+    margin: 0px;
+
+}
+
+.left-side-bar {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.wrap {
+    display:flex;
+    flex-direction: row;
+    flex:1;
+    background-color: aqua;
+}
+
+.head-section {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    height: 250px;
+    margin: 0px;
+    flex:1;
+    height:auto;
+}
+
+.head-text-section {
+    color: antiquewhite;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 4;
+}
+
+.middle-data {
+    background-color: antiquewhite;
+    margin: 0px;
+}
+
+.image-class {
+    margin-left: 20px;
+    align-self: center;
+    height: 200px;
+    width: 200px;
+    flex:1
+}
+
+.base-text {
+
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+
+}
+
+.base-text p {
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.index-text p {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 12px;
+}
+
+.index-text h3 {
+    margin-bottom: 10px;
+}
+
+td p {
+    color: blue;
+    border-color: black;
+    border-width: 1px;
+}
+
+li p{
+    font-weight: 800;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex:1
+}
+
+.footer-panel {
+    display: flex;
+    flex: 1;
+}
+
+.footer-imageAndText{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    margin: 10px;
+}
+
+.footer-class {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 120px;
+    background-color: blueviolet;
+}
+
+.footer-class img{
+    height:100px;
+    width: 100px;
+    align-self: center;
+    margin: 10px;
+}
+
+.footer-text p {
+    font-size: 14px;
+    font-weight: 700;
+    color:antiquewhite;
+}
