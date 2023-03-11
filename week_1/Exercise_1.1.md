@@ -14,11 +14,11 @@ Question 1.1 - When a user enters an URL in the browser, how does the browser fe
 
 1. Parsing the URL: The browser parses the URL entered by the user to identify the protocol (HTTP or HTTPS), domain name, path, and query parameters.
 
-DNS Lookup: The browser performs a DNS lookup to convert the domain name into an IP address. This involves sending a request to a DNS server to obtain the IP address associated with the domain name.
+2. DNS Lookup: The browser performs a DNS lookup to convert the domain name into an IP address. This involves sending a request to a DNS server to obtain the IP address associated with the domain name.
 
-2. Establishing a TCP Connection: The browser establishes a TCP connection with the server using the IP address obtained in the previous step. This involves a three-way handshake between the browser and the server.
+3. Establishing a TCP Connection: The browser establishes a TCP connection with the server using the IP address obtained in the previous step. This involves a three-way handshake between the browser and the server.
 
-3. Sending an HTTP Request: Once the TCP connection is established, the browser sends an HTTP request to the server. The request contains the method (GET, POST, PUT, DELETE, etc.), the path, and any query parameters.
+4. Sending an HTTP Request: Once the TCP connection is established, the browser sends an HTTP request to the server. The request contains the method (GET, POST, PUT, DELETE, etc.), the path, and any query parameters.
 
 5. Receiving the HTTP Response: The server processes the request and sends an HTTP response back to the browser. The response contains a status code (e.g., 200 for success, 404 for not found), headers (e.g., content type, cache-control), and a response body (e.g., HTML, JSON).
 
