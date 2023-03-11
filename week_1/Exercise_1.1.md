@@ -66,6 +66,9 @@ A browser consists of several high-level components that work together to provid
 
 These components work together to provide the user with a fast, secure, and user-friendly browsing experience.
 
+![image](https://user-images.githubusercontent.com/108273689/224480449-408d48cf-ddf2-47d0-871e-098ce65130c0.png)
+
+
 
 #### Script processing in a browser involves several steps. Here is an overview of the process:
 
