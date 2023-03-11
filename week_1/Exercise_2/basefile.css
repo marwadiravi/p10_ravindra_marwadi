@@ -7,7 +7,7 @@ body {
 .right-side-section {
     display: flex;
     flex-direction: column;
-    flex:1000;
+    flex:1;
     margin: 0px;
 
 }
