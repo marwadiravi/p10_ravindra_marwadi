@@ -8,6 +8,9 @@ Question 1.1 - When a user enters an URL in the browser, how does the browser fe
   f. Tree construction
   g. Order of script processing
   h. Layout and Painting
+  
+  ![image](https://user-images.githubusercontent.com/108273689/224480409-ef9bec7d-c7f4-4be5-87d2-906ebe31d7e1.png)
+
 
 
 #### When a user enters a URL in the browser, the browser follows a series of steps to fetch the desired result:
@@ -64,3 +67,22 @@ A browser consists of several high-level components that work together to provid
 These components work together to provide the user with a fast, secure, and user-friendly browsing experience.
 
 
+#### Script processing in a browser involves several steps. Here is an overview of the process:
+
+Parsing: The browser downloads the web page and starts parsing the HTML markup. If the browser encounters a script tag (either inline or external), it will pause parsing and start downloading and executing the script.
+
+Execution: Once the script has been downloaded, the browser executes it. Scripts can be executed in the global scope, or within a function or other block of code.
+
+DOM manipulation: If the script modifies the DOM (Document Object Model), the browser updates the in-memory representation of the web page accordingly. This can include adding or removing elements, changing the text or attributes of elements, and more.
+
+Layout and Rendering: If the script changes the size, position, or visibility of elements on the web page, the browser may need to re-compute the layout and repaint the affected areas of the screen.
+
+Script completion: Once the script has finished executing, the browser resumes parsing the HTML markup and continues to build the DOM tree. The browser may also continue downloading and executing additional scripts as it encounters them.
+
+It's important to note that scripts can have a significant impact on the performance of a web page, particularly if they make frequent DOM manipulations or cause layout reflows. To optimize performance, scripts should be written in a way that minimizes their impact on the layout and rendering process. For example, scripts that modify the DOM should be executed after the DOM has been fully loaded and constructed to avoid layout thrashing.
+
+
+References:
+1. https://aws.amazon.com/blogs/mobile/what-happens-when-you-type-a-url-into-your-browser/
+2. https://dev.to/salyadav/behind-the-scenes-from-the-moment-you-enter-a-url-1img
+3. https://developer.mozilla.org/en-US/
