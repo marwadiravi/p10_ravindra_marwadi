@@ -1,4 +1,4 @@
-Exercise1.1:
+# Exercise1.1:
 1.When a user enters an URL in the browser, how does the browser 
 fetch the desired result ? Explain this with the below in mind and 
 Demonstrate this by drawing a diagram for the same.(2-3hours)
